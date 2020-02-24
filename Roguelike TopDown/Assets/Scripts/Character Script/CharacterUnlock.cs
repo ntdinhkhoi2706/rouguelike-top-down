@@ -103,6 +103,7 @@ public class CharacterUnlock : MonoBehaviour
     {
         if(!PlayerController.Instance)
         {
+            UIController.Instance.select.SetActive(false);
             costBuyText.text = costBuy.ToString();
             CameraController.Instance.SetTarget(transform);
             CameraController.Instance.IsSet();
@@ -126,6 +127,7 @@ public class CharacterUnlock : MonoBehaviour
 
     public void DeSelected()
     {
+        UIController.Instance.select.SetActive(true);
         CameraController.Instance.SetTarget(startTarget);
         CameraController.Instance.IsNotSet();
 

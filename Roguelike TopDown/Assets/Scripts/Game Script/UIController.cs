@@ -47,6 +47,7 @@ public class UIController : MonoBehaviour
     public Text manaText = null;
 
     public Image buffImg;
+    public GameObject select;
 
 
     
