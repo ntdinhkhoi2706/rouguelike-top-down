@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
-  nextLevel: GamePlay
+  nextLevel: GamePlay 1
   isStartGame: 1
   isFinal: 0
   levelIndex: 0
@@ -1482,11 +1482,6 @@ PrefabInstance:
       propertyPath: lerpSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -1498,6 +1493,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -1521,11 +1521,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -1631,6 +1626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -2051,11 +2051,6 @@ PrefabInstance:
       propertyPath: lerpSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -2067,6 +2062,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -2090,11 +2090,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -2200,6 +2195,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -7064,7 +7064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 4
   armor: 4
-  mana: 100
+  mana: 120
   timeCoolDown: 5
   statsHealth: {fileID: 650666305}
   statsArmor: {fileID: 93870750}
@@ -7562,7 +7562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 4
   armor: 3
-  mana: 100
+  mana: 150
   timeCoolDown: 5
   statsHealth: {fileID: 851549288}
   statsArmor: {fileID: 564042481}
@@ -7596,7 +7596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 4
   armor: 3
-  mana: 100
+  mana: 150
   timeCoolDown: 2
   statsHealth: {fileID: 3937099}
   statsArmor: {fileID: 1673486865}
@@ -8377,11 +8377,6 @@ PrefabInstance:
       propertyPath: lerpSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -8393,6 +8388,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -8416,11 +8416,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -8526,6 +8521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -9361,11 +9361,6 @@ PrefabInstance:
       propertyPath: lerpSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -9377,6 +9372,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -9400,11 +9400,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -9510,6 +9505,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -9846,7 +9846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   armor: 4
-  mana: 100
+  mana: 200
   timeCoolDown: 5
   statsHealth: {fileID: 1231834339}
   statsArmor: {fileID: 2112522366}
@@ -9886,7 +9886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 4
   armor: 3
-  mana: 100
+  mana: 150
   timeCoolDown: 5
   statsHealth: {fileID: 1821183659}
   statsArmor: {fileID: 2111139856}
@@ -10183,7 +10183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   armor: 2
-  mana: 100
+  mana: 180
   timeCoolDown: 5
   statsHealth: {fileID: 780990211}
   statsArmor: {fileID: 1417178261}
@@ -11017,11 +11017,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: 1000
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -11033,6 +11028,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -11056,11 +11056,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -11166,6 +11161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -12135,11 +12135,6 @@ PrefabInstance:
       propertyPath: lerpSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -12151,6 +12146,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -12174,11 +12174,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -12284,6 +12279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -13507,11 +13507,6 @@ PrefabInstance:
       propertyPath: lerpSpeed
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: lerpSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8597369961711031641, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: m_IsActive
@@ -13523,6 +13518,11 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2137923354889367740, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: lerpSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497480012773553224, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
       propertyPath: lerpSpeed
       value: 2
@@ -13546,11 +13546,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
-        type: 3}
-      propertyPath: m_Text
-      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4840089082272047842, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -13656,6 +13651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539109219933900800, guid: 20aad710a9cae5b40a5eec9f8042cc22,
+        type: 3}
+      propertyPath: m_Text
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5844595472684074654, guid: 20aad710a9cae5b40a5eec9f8042cc22,
         type: 3}
@@ -14718,6 +14718,171 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[0].nameBuff
+      value: ChanceHealthAfterKill
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[0].infoBuff
+      value: "Chance to gain life after killing an enemy.\t "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: -4621929190560817663, guid: 1932ae62bd8f2ad4fbe431660f064e1d,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[1].nameBuff
+      value: DropChance
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[1].infoBuff
+      value: Increase the chance of potion drop when breaking crates.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 8438377128286891448, guid: 447e84b6fd884ba48b508d055697bb6d,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[2].nameBuff
+      value: DecreaseEnemyBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[2].infoBuff
+      value: Decrease monster bullet speed.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: -1200629012026264974, guid: c8d38e5c864421c4e82a63620a02d413,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[3].nameBuff
+      value: ImmuneFire
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[3].infoBuff
+      value: Immune to fire, decrease explosion damage.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: -6179793999267575601, guid: 686cbf4e6008c5944827891ebd850a7b,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[4].nameBuff
+      value: IncreaseHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[4].infoBuff
+      value: Increase maximum life.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[4].sprite
+      value: 
+      objectReference: {fileID: -5247090674255296962, guid: 6d7fd392bc9aec84d85688bfe7644429,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[5].nameBuff
+      value: NoExtraDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[5].infoBuff
+      value: No extra damage when shield is broken.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[5].sprite
+      value: 
+      objectReference: {fileID: -1698770462257846849, guid: 3fcaaa4db2430dc4788dfa597540144b,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[6].nameBuff
+      value: IncreaseNumberOfShotgun
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[6].infoBuff
+      value: Increase the number of bullets of shotguns.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[6].sprite
+      value: 
+      objectReference: {fileID: -2408530018317867212, guid: 16e45d8d14ff8c84db1523f4c2107b56,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[7].nameBuff
+      value: ImmunePoison
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[7].infoBuff
+      value: Immune to poison gas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[7].sprite
+      value: 
+      objectReference: {fileID: 3705198119861431911, guid: 3257474421b4b9248b40c76a1b0fa621,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[8].nameBuff
+      value: ReduceSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[8].infoBuff
+      value: Reduce skill cool down.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[8].sprite
+      value: 
+      objectReference: {fileID: -1040971645254420591, guid: 5e4a451dd85ce884482197e7a05e9025,
+        type: 3}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[9].nameBuff
+      value: SaleOff
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[9].infoBuff
+      value: "50% off in shop.\t "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637176126586739182, guid: 6025cc1a2c95afb42ab64e46a1b1d984,
+        type: 3}
+      propertyPath: containBuff.Array.data[9].sprite
+      value: 
+      objectReference: {fileID: -1011530420017882168, guid: a5f9621457fd0dc4a988c5006e727ba4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6025cc1a2c95afb42ab64e46a1b1d984, type: 3}
 --- !u!1001 &1677041624440849099

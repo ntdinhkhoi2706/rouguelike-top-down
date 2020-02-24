@@ -30,5 +30,6 @@ public class Gun : WeaponController
                 shot.Shot();
             }
         }
+        base.ProcessAttack();
     }
 }

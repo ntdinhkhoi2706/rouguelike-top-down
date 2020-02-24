@@ -31,7 +31,7 @@ public class BaseShot : MonoBehaviour
     {
         if(!setAngle)
         {
-            gunHand = GetComponentInParent<GundHand>().transform;
+            gunHand = GetComponentInParent<GunHand>().transform;
         }
         
             var goBulletList = new List<GameObject>();
@@ -150,7 +150,7 @@ public class BaseShot : MonoBehaviour
         {
             return;
         }
-        Couroutine.StartIE(AutoReleaseBulletGameObjectCoroutine(goBullet));
+        StartCoroutine(AutoReleaseBulletGameObjectCoroutine(goBullet));
     }
 
 

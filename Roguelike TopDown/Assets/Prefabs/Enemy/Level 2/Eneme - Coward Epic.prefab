@@ -286,7 +286,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4790446541211852413}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a25bcfd21e5cb4688d43663a5c33b3, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c7f6b7b44dc1948a95e25e185a86fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4942538395008170368
@@ -507,7 +507,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0054928362, y: 0.0019758344}
+  m_Offset: {x: -0.04774642, y: -0.031307667}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -518,7 +518,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43973213, y: 0.9885851}
+  m_Size: {x: 0.89226866, y: 1.8805897}
   m_EdgeRadius: 0
 --- !u!50 &9198171456157905647
 Rigidbody2D:
@@ -585,12 +585,11 @@ MonoBehaviour:
   - {fileID: 2350906927877180237, guid: 64fbd009b87a3dd4197a3fda3793fab4, type: 3}
   enemyHitFx: {fileID: 4983309389459756401, guid: 6ceebf63e5cd70f48a1a28502ee0704d,
     type: 3}
-  theBody: {fileID: 9198171457798017485}
   collect:
   - {fileID: 3007593252007367750, guid: c47905aff92602d40b0ffcfa83c2cd5e, type: 3}
   - {fileID: 5074128131693116604, guid: 86964f843b17bc446bdcea51215f945f, type: 3}
+  theBody: {fileID: 9198171457798017485}
   target: {fileID: 890184849631193414}
-  isAlive: 0
   ice: {fileID: 2179986660384184339}
   poison: {fileID: 8526970397815036702}
   fire: {fileID: 4543075675038375353}
@@ -676,9 +675,11 @@ MonoBehaviour:
   accelerationTurn: 0
   autoReleased: 0
   autoReleaseTime: 10
+  setAngle: 0
   wayNum: 3
   betweenAngle: 25
   nextLineDelay: 0.1
+  setCenterAngle: 0
 --- !u!1 &9198171457798017487
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2309893988147073269}
   - component: {fileID: 1277833101585351309}
   - component: {fileID: 4427069015353944611}
-  - component: {fileID: -1946275251375233082}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -97,7 +96,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.04, y: 0.19}
+  m_Size: {x: 0.8, y: 0.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -112,18 +111,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7813905602384383803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a79b34ef0fdfa4f899366d430e9aef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-1946275251375233082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7813905602384383803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af377eca28e92a34f951c1bd699b0d93, type: 3}
+  m_Script: {fileID: 11500000, guid: e8725074eefaf8741ab4c4991c53320e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

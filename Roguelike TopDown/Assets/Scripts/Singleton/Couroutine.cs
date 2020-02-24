@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Couroutine : SingletonMonoBehaviour<Couroutine>
+public class Couroutine : MonoBehaviour
 {
-
-    protected override void Awake()
+    public static Couroutine Instance;
+    void Awake()
     {
-        base.Awake();
+        Instance = this;
     }
 
     public static Coroutine StartIE(IEnumerator routine)

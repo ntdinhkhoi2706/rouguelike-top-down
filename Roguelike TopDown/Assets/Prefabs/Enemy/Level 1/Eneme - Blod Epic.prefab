@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8539849409409756207}
-  - component: {fileID: 317470399}
+  - component: {fileID: 5891680430860107303}
   m_Layer: 10
   m_Name: GunHand
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 279135379191987147}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &317470399
+--- !u!114 &5891680430860107303
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 148806857576516247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a25bcfd21e5cb4688d43663a5c33b3, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c7f6b7b44dc1948a95e25e185a86fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &279135379191987145
@@ -165,12 +165,11 @@ MonoBehaviour:
   - {fileID: 2350906927877180237, guid: 64fbd009b87a3dd4197a3fda3793fab4, type: 3}
   enemyHitFx: {fileID: 4983309389459756401, guid: 6ceebf63e5cd70f48a1a28502ee0704d,
     type: 3}
-  theBody: {fileID: 279135380897700079}
   collect:
   - {fileID: 3007593252007367750, guid: c47905aff92602d40b0ffcfa83c2cd5e, type: 3}
   - {fileID: 5074128131693116604, guid: 86964f843b17bc446bdcea51215f945f, type: 3}
+  theBody: {fileID: 279135380897700079}
   target: {fileID: 4109246461139031362}
-  isAlive: 0
   ice: {fileID: 3458950900074578241}
   poison: {fileID: 3248460146688866789}
   fire: {fileID: 4420096550793397027}
@@ -326,6 +325,7 @@ MonoBehaviour:
   accelerationTurn: 0
   autoReleased: 0
   autoReleaseTime: 10
+  setAngle: 0
   startAngle: 180
   shiftAngle: 6
   betweenDelay: 0.5

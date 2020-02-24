@@ -158,7 +158,7 @@ MonoBehaviour:
     damage: 3
     critChance: 15
     deflection: 5
-    mana: 0
+    mana: 1
   nameWeapon: 0
   weaponPickup: {fileID: 3358632260550842452, guid: 40c17d851dd755842a5c2643cdd3ae52,
     type: 3}
@@ -245,5 +245,4 @@ MonoBehaviour:
   randomSpeedMax: 15
   randomDelayMin: 0
   randomDelayMax: 0
-  evenlyDistrubute: 1
   rotate: 1

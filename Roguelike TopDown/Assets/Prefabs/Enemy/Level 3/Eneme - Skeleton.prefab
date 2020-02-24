@@ -204,7 +204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6696045789466629140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a25bcfd21e5cb4688d43663a5c33b3, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c7f6b7b44dc1948a95e25e185a86fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6699208302166164850
@@ -503,12 +503,11 @@ MonoBehaviour:
   - {fileID: 2350906927877180237, guid: 64fbd009b87a3dd4197a3fda3793fab4, type: 3}
   enemyHitFx: {fileID: 4983309389459756401, guid: 6ceebf63e5cd70f48a1a28502ee0704d,
     type: 3}
-  theBody: {fileID: 8910005342106792533}
   collect:
   - {fileID: 3007593252007367750, guid: c47905aff92602d40b0ffcfa83c2cd5e, type: 3}
   - {fileID: 5074128131693116604, guid: 86964f843b17bc446bdcea51215f945f, type: 3}
+  theBody: {fileID: 8910005342106792533}
   target: {fileID: 6699208302166164850}
-  isAlive: 0
   ice: {fileID: 5692720744006148050}
   poison: {fileID: 1896749720251773042}
   fire: {fileID: 7175915755420331225}
@@ -676,7 +675,9 @@ MonoBehaviour:
   accelerationTurn: 0
   autoReleased: 0
   autoReleaseTime: 1.5
+  setAngle: 0
   betweenDelay: 0.15
+  angle: 0
 --- !u!1 &9065119738281457161
 GameObject:
   m_ObjectHideFlags: 0

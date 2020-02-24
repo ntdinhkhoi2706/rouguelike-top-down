@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GundHand : MonoBehaviour
+public class GunHand : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

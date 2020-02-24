@@ -258,7 +258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2763181604927144312}
-  - component: {fileID: 1354991103906003181}
+  - component: {fileID: 862728422919572015}
   m_Layer: 8
   m_Name: Gun Hand
   m_TagString: Untagged
@@ -280,7 +280,7 @@ Transform:
   m_Father: {fileID: 3904401842051966126}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1354991103906003181
+--- !u!114 &862728422919572015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2374362497079816083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a25bcfd21e5cb4688d43663a5c33b3, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c7f6b7b44dc1948a95e25e185a86fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2570798082147140495
@@ -817,7 +817,6 @@ MonoBehaviour:
   - {fileID: 1215726384439066499, guid: c7f337817187d7244959a8978a10bd39, type: 3}
   - {fileID: 5726819824349309391, guid: 144613f4e1e9d8343ac179b98095c72b, type: 3}
   current_Weapon: {fileID: 0}
-  holdPower: 0
   unHold: 0
   hold: 0
   holdPowerImg: {fileID: 3855659722476352276}
@@ -845,7 +844,6 @@ MonoBehaviour:
   gunArm: {fileID: 2763181604927144312}
   theBody: {fileID: 3904401841487903867}
   skillDuration: 2
-  timeCoolDown: 5
   debuffPoison: {fileID: 8787938990757072540}
   debuffFire: {fileID: 8224878197033590394}
   debuffIce: {fileID: 9196316406354804380}

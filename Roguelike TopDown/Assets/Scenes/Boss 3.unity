@@ -7617,7 +7617,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 877333415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a25bcfd21e5cb4688d43663a5c33b3, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c7f6b7b44dc1948a95e25e185a86fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &921014131
@@ -7940,6 +7940,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1280501935417857747, guid: 1df099903d9782b4987035f15a34b7cf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 946444611905472259, guid: 1df099903d9782b4987035f15a34b7cf,
         type: 3}
       propertyPath: m_UiScaleMode
@@ -7953,11 +7958,6 @@ PrefabInstance:
     - target: {fileID: 946444611905472259, guid: 1df099903d9782b4987035f15a34b7cf,
         type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1280501935417857747, guid: 1df099903d9782b4987035f15a34b7cf,
-        type: 3}
-      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8339,6 +8339,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651411709, guid: ee25db70ab0fced4f9df237567f50f9a, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6747426301441695683, guid: ee25db70ab0fced4f9df237567f50f9a,
         type: 3}

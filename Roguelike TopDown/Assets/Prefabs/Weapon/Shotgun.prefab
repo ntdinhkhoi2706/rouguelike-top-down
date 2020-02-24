@@ -103,7 +103,7 @@ MonoBehaviour:
     damage: 3
     critChance: 0
     deflection: 2
-    mana: 0
+    mana: 2
   nameWeapon: 1
   weaponPickup: {fileID: 433160647598770237, guid: de634c0251692264d8a72b2e2d4b0a6d,
     type: 3}
