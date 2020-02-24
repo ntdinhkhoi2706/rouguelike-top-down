@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fxdead : MonoBehaviour
+public class AnimationDeactivate : MonoBehaviour
 {
     void Deactivate()
     {
