@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56bb1b470b5bb44095678dce86cbc79, type: 3}
+  m_Name: P Buff Chance Health
+  m_EditorClassIdentifier: 
+  reward: {fileID: 3453252103766415464, guid: d9b179d0faf5ae941842e5b8399efcfe, type: 3}
+  icon: {fileID: -4621929190560817663, guid: 1932ae62bd8f2ad4fbe431660f064e1d, type: 3}
+  nameBuff: ChanceHealthAfterKill

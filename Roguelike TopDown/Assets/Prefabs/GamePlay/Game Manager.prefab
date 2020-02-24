@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &230401836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230401837}
+  - component: {fileID: 230401838}
+  m_Layer: 0
+  m_Name: Inventory Plant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230401837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230401836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1637176126586739183}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &230401838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230401836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcefd34e567d344409e10ac5a5829614, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  itemsPickup:
+  - {fileID: 1715312267724879489, guid: b4f082cd5b0fe5e418ac2a06bb4f9149, type: 3}
+  - {fileID: 1715312267724879489, guid: 5a907370a7c7b57428c0d96aee141bd4, type: 3}
+  - {fileID: 1715312267724879489, guid: 1c026cd6a807ab44bae82d4b450d0d6f, type: 3}
+  - {fileID: 1715312267724879489, guid: eb99cfa5d6e54644d9262fc159ad31e2, type: 3}
+  - {fileID: 1715312267724879489, guid: 8abb7acad2166e84eba209265e5b28b4, type: 3}
+  - {fileID: 1715312267724879489, guid: 2bcae33750e6d4d4cb331b4272c88963, type: 3}
+  - {fileID: 1715312267724879489, guid: c174f43258620a3499d9b9c45b4cc203, type: 3}
+  - {fileID: 1715312267724879489, guid: b06276b46a454b74f894331479e6f0ff, type: 3}
+  - {fileID: 1715312267724879489, guid: c33755ae86f35db45867938fe27ed571, type: 3}
+  - {fileID: 1715312267724879489, guid: 49cd6ac31dc3c244fab659627ecc8c08, type: 3}
+  space: 20
+--- !u!1 &723724056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723724057}
+  - component: {fileID: 723724058}
+  m_Layer: 0
+  m_Name: Inventory Craft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723724057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723724056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1637176126586739183}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723724058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723724056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894f96018d770ae4cb2d02ee5068d23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  gunPickup:
+  - {fileID: 7444130557505036809, guid: 1a7f46806f3b1a144a45a4414288b6b6, type: 3}
+  - {fileID: 3120854294152486330, guid: abe7742bc816fb24eaaa4edd4edea278, type: 3}
+  - {fileID: 6005350702382361698, guid: bd604fa460be0d54cafea2aa3e06009e, type: 3}
+  - {fileID: 7892454121004946235, guid: 2bd393b06ac72094d8abc64dffa156a1, type: 3}
+  - {fileID: 6879268771306124165, guid: f7c0175a776ba62448bc43fa2d091d18, type: 3}
+  - {fileID: 7766358214501684666, guid: dc4707d968938d04bad275987f25658f, type: 3}
+  - {fileID: 7908371064077724479, guid: 07b255765fd22644598c20416ff413eb, type: 3}
+  - {fileID: 4927368877782981676, guid: d14f01e580c487f4aa0c0d56cdae624b, type: 3}
+  - {fileID: 7972454766367773169, guid: ed20b1135db3dc34082113521941f176, type: 3}
+  - {fileID: 3358632260550842450, guid: 40c17d851dd755842a5c2643cdd3ae52, type: 3}
+  - {fileID: 3716153147318562941, guid: 18305cc86af158a4a8b0688e9163669d, type: 3}
+  - {fileID: 433160647598770235, guid: de634c0251692264d8a72b2e2d4b0a6d, type: 3}
+  - {fileID: 6296410225509369727, guid: 6e59dca45ebc8e149baabe6a150df26a, type: 3}
+  - {fileID: 3214003582533861409, guid: 36c9c07e6442d9e4d85941c4ad545d74, type: 3}
+  - {fileID: 2769093304720950696, guid: 5a2e2da9e733c6248972c708a6cfe618, type: 3}
+  - {fileID: 2869402332731861168, guid: ff38d4f716861ba418bf76e66ed5d75e, type: 3}
+  space: 20
+--- !u!1 &1517944100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517944101}
+  - component: {fileID: 1517944102}
+  m_Layer: 0
+  m_Name: 'Inventory '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1517944101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517944100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1637176126586739183}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1517944102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517944100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8d1701b414832429d769e96ef8631a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  itemsPickup:
+  - {fileID: 3605380517942146612, guid: a19fd5e55acb2b042ac06c5bbd8b44f7, type: 3}
+  - {fileID: 3605380517942146612, guid: d46fd5bf3c207304ab1c1c83f8eedf0a, type: 3}
+  - {fileID: 3605380517942146612, guid: 5ed6a6963eddfc84ba5945536015ad11, type: 3}
+  - {fileID: 3605380517942146612, guid: 531d0a5137eadfc44bd8e479eb9c950b, type: 3}
+  - {fileID: 3605380517942146612, guid: 0ca3b45a81f1f9c478f48cf4e4fe939a, type: 3}
+  - {fileID: 3605380517942146612, guid: 58096a27736a5bf4b9f1b170e3a4034e, type: 3}
+  - {fileID: 3605380517942146612, guid: 31c3741a0cdb8b140bfaeaffa2de815a, type: 3}
+  - {fileID: 3605380517942146612, guid: f79bacbe6b4cda54cba94abf57223057, type: 3}
+  - {fileID: 3605380517942146612, guid: 7b491ce63c12a594080e8e0c8bc0c081, type: 3}
+  space: 20
+--- !u!1 &1637176126586739177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637176126586739183}
+  - component: {fileID: 1637176126586739182}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1637176126586739183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637176126586739177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 723724057}
+  - {fileID: 1517944101}
+  - {fileID: 230401837}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637176126586739182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637176126586739177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060a2b681b10ebe45ae34ba72cd80822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallet: 20000
+  enemyCount: 0
+  levelIndex: 1
+  buffMain:
+  - buffExtra: IncreaseNumberOfShotgun
+    buffText: "Increase the number of bullets of shotguns.\t "
+    buffsr: {fileID: -2408530018317867212, guid: 16e45d8d14ff8c84db1523f4c2107b56,
+      type: 3}
+  - buffExtra: DropChance
+    buffText: Increase the chance of potion drop when breaking crates.
+    buffsr: {fileID: 8438377128286891448, guid: 447e84b6fd884ba48b508d055697bb6d,
+      type: 3}
+  - buffExtra: DecreaseEnemyBullet
+    buffText: Decrease monster bullet speed
+    buffsr: {fileID: -1200629012026264974, guid: c8d38e5c864421c4e82a63620a02d413,
+      type: 3}
+  - buffExtra: ImmuneFire
+    buffText: Immune to fire, decrease explosion damage, and increase fire damage
+      to monsters.
+    buffsr: {fileID: -6179793999267575601, guid: 686cbf4e6008c5944827891ebd850a7b,
+      type: 3}
+  - buffExtra: ChanceHealthAfterKill
+    buffText: Chance to gain life after killing an enemy.
+    buffsr: {fileID: -4621929190560817663, guid: 1932ae62bd8f2ad4fbe431660f064e1d,
+      type: 3}
+  - buffExtra: IncreaseHealth
+    buffText: Increase maximum life.
+    buffsr: {fileID: -5247090674255296962, guid: 6d7fd392bc9aec84d85688bfe7644429,
+      type: 3}
+  - buffExtra: NoExtraDamage
+    buffText: No extra damage when shield is broken.
+    buffsr: {fileID: -1698770462257846849, guid: 3fcaaa4db2430dc4788dfa597540144b,
+      type: 3}
+  - buffExtra: ImmunePoison
+    buffText: Immune to poison gas and slow effect, increase poison damage to monsters.
+    buffsr: {fileID: 3705198119861431911, guid: 3257474421b4b9248b40c76a1b0fa621,
+      type: 3}
+  - buffExtra: ReduceSkill
+    buffText: Reduce skill cool down.
+    buffsr: {fileID: -1040971645254420591, guid: 5e4a451dd85ce884482197e7a05e9025,
+      type: 3}
+  - buffExtra: SaleOff
+    buffText: 50% off in shop.
+    buffsr: {fileID: -1011530420017882168, guid: a5f9621457fd0dc4a988c5006e727ba4,
+      type: 3}
+  buffToAdd: []

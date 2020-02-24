@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56bb1b470b5bb44095678dce86cbc79, type: 3}
+  m_Name: P Buff DropChance
+  m_EditorClassIdentifier: 
+  reward: {fileID: 3453252103766415464, guid: 1b079b40b47bbbc4ba71b6053f41115d, type: 3}
+  icon: {fileID: 8438377128286891448, guid: 447e84b6fd884ba48b508d055697bb6d, type: 3}
+  nameBuff: DropChance

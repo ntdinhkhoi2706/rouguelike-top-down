@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70454b3f72a68bd4d8bc32301b8fcf1b, type: 3}
+  m_Name: Bad Pistol
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 3120854294152486330, guid: abe7742bc816fb24eaaa4edd4edea278, type: 3}
+  needed:
+  - item: {fileID: 1205968809252182412, guid: 7da95f2e1556e3543914fa25146db032, type: 3}
+    count: 15
