@@ -33,19 +33,15 @@ public class Bullet : MonoBehaviour
     
     IEnumerator MoveCoroutine(float speed,float angle, float accelSpeed,float accelTurn)
     {
-
             transform.SetEulerAnglesZ(angle);
-       
-
-        
 
         while(true)
         { 
-                    float addAngle = accelTurn * Timer.Instance.DeltaTime;
+                    float addAngle = accelTurn * Time.deltaTime;
                     transform.AddEulerAnglesZ(addAngle);
-            speed += (accelSpeed * Timer.Instance.DeltaTime);
+            speed += (accelSpeed * Time.deltaTime);
 
-            transform.position += transform.right.normalized * speed * Timer.Instance.DeltaTime;
+            transform.position += transform.right.normalized * speed * Time.deltaTime;
             yield return 0;
         }
 
@@ -65,7 +61,7 @@ public class Bullet : MonoBehaviour
 
     IEnumerator Deactivate()
     {
-        yield return StartCoroutine(MyUtil.WaitForSeconds(0f));
+        yield return StartCoroutine(MyUtil.WaitForSeconds(0.1f));
         gameObject.SetActive(false);
     }
 

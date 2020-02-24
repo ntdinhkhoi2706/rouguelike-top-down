@@ -39,7 +39,7 @@ public class SingletonMonoBehaviour<T> : MonoBehaviour where T :MonoBehaviour
         }
     }
 
-    protected Transform _Transform
+    protected Transform Transform
     {
         get
         {

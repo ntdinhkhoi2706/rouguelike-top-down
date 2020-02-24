@@ -68,7 +68,7 @@ public class PlayerHealthController : MonoBehaviour
         {
             if(restoreCounter >0)
             {
-                restoreCounter -= Timer.Instance.DeltaTime;
+                restoreCounter -= Time.deltaTime;
                 if(restoreCounter <0)
                 {
                     if(isHited)

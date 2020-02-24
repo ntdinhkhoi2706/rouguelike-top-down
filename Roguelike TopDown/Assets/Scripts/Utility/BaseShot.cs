@@ -90,19 +90,6 @@ public class BaseShot : MonoBehaviour
                     }
                 }
             }
-            else if (gameObject.GetComponentInParent<Gun>().nameWeapon == NameWeapon.ComboHit)
-            {
-                if (GameManager.Instance.mainBuff.Count > 0)
-                {
-                    foreach (var buff in GameManager.Instance.mainBuff)
-                    {
-                        if (buff.nameBuff.Contains("IncreaseNumberOfComboHit"))
-                        {
-                            bulletNum += 1;
-                        }
-                    }
-                }
-            }
         }
     }
 
@@ -172,7 +159,7 @@ public class BaseShot : MonoBehaviour
 
             yield return 0;
 
-            countUpTime += Timer.Instance.DeltaTime;
+            countUpTime += Time.deltaTime;
         }
         ObjectPooling.Instance.ReleaseGameObject(goBullet);
     }

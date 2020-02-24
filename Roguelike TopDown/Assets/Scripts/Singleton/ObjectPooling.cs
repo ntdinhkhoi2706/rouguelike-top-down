@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ObjectPooling : SingletonMonoBehaviour<ObjectPooling>
 {
-    List<int> PooledKeyList = new List<int>();
-    Dictionary<int, List<GameObject>> PooledGoDic = new Dictionary<int, List<GameObject>>();
+    List<int> KeyList = new List<int>();
+    Dictionary<int, List<GameObject>> GoDic = new Dictionary<int, List<GameObject>>();
 
     protected override void Awake()
     {
@@ -19,13 +19,13 @@ public class ObjectPooling : SingletonMonoBehaviour<ObjectPooling>
 
         int key = prefab.GetInstanceID();
 
-        if(!PooledKeyList.Contains(key) && !PooledGoDic.ContainsKey(key))
+        if(!KeyList.Contains(key) && !GoDic.ContainsKey(key))
         {
-            PooledKeyList.Add(key);
-            PooledGoDic.Add(key, new List<GameObject>());
+            KeyList.Add(key);
+            GoDic.Add(key, new List<GameObject>());
         }
 
-        List<GameObject> goList = PooledGoDic[key];
+        List<GameObject> goList = GoDic[key];
         GameObject go = null;
 
         if (!forceInstantiate)
@@ -40,7 +40,6 @@ public class ObjectPooling : SingletonMonoBehaviour<ObjectPooling>
                 }
                 if (go.activeSelf == false)
                 {
-                    // Found free GameObject in object pool.
                     Transform goTransform = go.transform;
                     goTransform.position = position;
                     goTransform.rotation = rotation;
@@ -49,10 +48,8 @@ public class ObjectPooling : SingletonMonoBehaviour<ObjectPooling>
                 }
             }
         }
-
-        // Instantiate because there is no free GameObject in object pool.
-        go = (GameObject)Instantiate(prefab, position, rotation);
-        go.transform.parent = _Transform;
+        go =Instantiate(prefab, position, rotation);
+        go.transform.parent = Transform;
         goList.Add(go);
 
         return go;
@@ -72,10 +69,10 @@ public class ObjectPooling : SingletonMonoBehaviour<ObjectPooling>
     public int GetActivePooledObjectCount()
     {
         int cnt = 0;
-        for (int i = 0; i < PooledKeyList.Count; i++)
+        for (int i = 0; i < KeyList.Count; i++)
         {
-            int key = PooledKeyList[i];
-            var goList = PooledGoDic[key];
+            int key = KeyList[i];
+            var goList = GoDic[key];
             for (int j = 0; j < goList.Count; j++)
             {
                 var go = goList[j];

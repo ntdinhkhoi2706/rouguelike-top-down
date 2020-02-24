@@ -9,26 +9,10 @@ public class MyUtil : MonoBehaviour
         float elapsedTime = 0f;
         while(elapsedTime < waitTime)
         {
-            elapsedTime += Timer.Instance.DeltaTime;
+            elapsedTime += Time.deltaTime;
             yield return 0;
         }
     }
-
-    public static Transform GetTransformFromTagName(string tagName)
-    {
-        if(string.IsNullOrEmpty(tagName))
-        {
-            return null;
-        }
-
-        GameObject goTarget = GameObject.FindWithTag(tagName);
-        if(!goTarget)
-        {
-            return null;
-        }
-        return goTarget.transform;
-    }
-
 
     public static float GetShiftedAngle(int wayIndex,float baseAngle,float betweenAngle)
     {
@@ -38,30 +22,4 @@ public class MyUtil : MonoBehaviour
         return angle;
     }
 
-    public static float Get360Angle(float angle)
-    {
-        while(angle <0f)
-        {
-            angle += 360f;
-        }
-        while(360f <angle)
-        {
-            angle -= 360f;
-        }
-        return angle;
-    }
-
-    public static float GetZAngleFromTwoPosition(Transform fromTrans,Transform toTrans)
-    {
-        if(fromTrans == null || toTrans==null)
-        {
-            return 0f;
-        }
-
-        var xDistance = toTrans.position.x - fromTrans.position.x;
-        var yDistance = toTrans.position.y - fromTrans.position.y;
-        var angle = Mathf.Atan2(xDistance, yDistance) * Mathf.Rad2Deg;
-        angle = -Get360Angle(angle);
-        return angle;
-    }
 }
